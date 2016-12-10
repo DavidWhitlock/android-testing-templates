@@ -8,3 +8,4 @@ android:
     - platform-tools
     - android-25
     - build-tools-25.0.1
+script: cd ./AndroidTestingBlueprint; gradlew app:connectedAndroidTest
