@@ -9,4 +9,4 @@ android:
     - android-25
     - build-tools-25.0.1
 before_script: cd $TRAVIS_BUILD_DIR/AndroidTestingBlueprint
-script: gradlew app:connectedAndroidTest
+script: ./gradlew app:connectedAndroidTest
